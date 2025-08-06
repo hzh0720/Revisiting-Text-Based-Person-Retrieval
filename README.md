@@ -5,6 +5,7 @@ This repository provides improved test sets for three mainstream Text-Based Pers
 > Zihang Han, Chao Zhu, Mengyin Liu, Xu-Cheng Yin
 
 # Overview
+<img width="1262" height="800" alt="fig0" src="https://github.com/user-attachments/assets/2979d079-d190-48b4-8ada-607bebb471af" />
 
 Text-Based Person Retrieval (TBPR) datasets often suffer from annotation-induced mismatches, where multiple images with different IDs share highly similar or identical textual descriptions. Our work addresses this issue by leveraging multimodal large language models (MLLMs) to generate more distinctive and discriminative captions for each image, reducing evaluation bias and improving retrieval accuracy.
 
