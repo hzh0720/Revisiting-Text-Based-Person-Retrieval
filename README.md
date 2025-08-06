@@ -11,9 +11,9 @@ Text-Based Person Retrieval (TBPR) datasets often suffer from annotation-induced
 
 This repository contains the **refined test sets** for:
 
-- [CUHK-PEDES](#cuhk-pedes)
-- [RSTPReid](#rstpreid)
-- [ICFG-PEDES](#icfg-pedes)
+- [CUHK-PEDES](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description)
+- [RSTPReid](https://github.com/NjtechCVLab/RSTPReid-Dataset)
+- [ICFG-PEDES](https://github.com/zifyloo/SSAN)
 
 # Dataset Structure
 
@@ -22,7 +22,7 @@ Each dataset folder contains:
 - The refined_test_captions.json file for ICFG-PEDES will be uploaded soon.
 
 **Example directory structure:**
-
+```
 Revisiting-Text-Based-Person-Retrieval/  
 ├── CUHK-PEDES/  
 │ └── refined_test_captions.json  
@@ -31,6 +31,12 @@ Revisiting-Text-Based-Person-Retrieval/
 ├── ICFG-PEDES/  
 │ └── refined_test_captions.json  
 └── README.md
+```
+
+# Download
+**Baidu Netdisk**  
+Link: https://pan.baidu.com/s/1LQr4RQ6kO8-s8h0rG5GS2A?pwd=ahyj  
+Password: ahyj
 
 # Data Format
 
