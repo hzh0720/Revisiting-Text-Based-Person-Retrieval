@@ -21,34 +21,26 @@ Each dataset folder contains:
 - The refined_test_captions.json file for ICFG-PEDES will be uploaded soon.
 
 **Example directory structure:**
-Revisiting-Text-Based-Person-Retrieval/
-├── CUHK-PEDES/
-│ └── refined_test_captions.json
-├── RSTPReid/
-│ └── refined_test_captions.json
-├── ICFG-PEDES/
-│ └── refined_test_captions.json
+
+Revisiting-Text-Based-Person-Retrieval/  
+├── CUHK-PEDES/  
+│ └── refined_test_captions.json  
+├── RSTPReid/  
+│ └── refined_test_captions.json  
+├── ICFG-PEDES/  
+│ └── refined_test_captions.json  
 └── README.md
 
 # Data Format
 
 - Each `.json` file  defined by the original dataset, where each entry includes an image ID and its corresponding refined textual description.
 
-# Download
-
-You can download the refined test sets via:
-
-- [CUHK-PEDES refined test set](link_here)
-- [RSTPReid refined test set](link_here)
-- [ICFG-PEDES refined test set](link_here)
-
-> **Note:** Please ensure you have access to the original datasets, as only the **refined annotations** for the test sets are provided here.
-
 # Usage
 
 1. Download and extract the refined captions for the dataset you are using.
 2. Replace the original test set captions with the provided refined captions in your TBPR evaluation pipeline.
 3. Evaluate your model as usual.
+> **Note:** Please ensure you have access to the original datasets, as only the **refined annotations** for the test sets are provided here.
 
 # Citation
 
